@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+    p {
+        margin:200px;
+    }
+    </style>
+</head>
+<body style="background-image:url(https://www.pgclick.com/file_uploads/pg_photos/1000/CONif_1573742157.jpeg)"</body>
+<h1><center>Login Form</center></h1>
+
+
+        <p><center>
+    <form class="modal-content animate" method="post">
+        
+    
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname">
+    <br><br>
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required minlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+            <br><br>
+          <button type="submit">Login</button>
+    
+        </div>
+
+    <br>
+        <div class="container" >
+          <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button><br><br>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form>
+        </center></p>
+    
+  
+    
+         
+    
+    
+</body>
+</html>
